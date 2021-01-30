@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          안녕하세요
+          리액트 깃허브 커밋 테스트
         </p>
         <a
           className="App-link"
