@@ -24,7 +24,12 @@ function App() {
       </div>
       <button onClick={ functionChangeTitle}>Button</button>
       <div className="list">
-        <h3>{title[0]}<span onClick={ ()=>{countUpLike(like + 1)}}>👍</span> {like} </h3>
+        <h3>
+          {title[0]}&nbsp;{like}&nbsp;
+          <span style={{cursor:"pointer"}} onClick={ ()=>{ countUpLike(like + 1) }}>👍</span>  
+          <span style={{cursor:"pointer"}} onClick={ ()=>{ countUpLike(like - 1) }}>😒</span>
+
+        </h3>
         <p>2월 17일 발행</p>
         <hr/>
       </div>
